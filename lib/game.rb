@@ -73,13 +73,9 @@ class Game
     turn until over?
     if won?
       puts "Congratulations #{winner}!"
-    else draw?
+    elsif draw?
       puts "Cat's Game!"
     end
   end
-
-
-
-
 
 end
