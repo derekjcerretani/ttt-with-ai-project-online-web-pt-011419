@@ -59,7 +59,7 @@ class Game
 
   def turn
     puts "Enter a number: 1 - 9"
-    
+    user_input = gets 
 
   end
 
