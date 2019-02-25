@@ -58,8 +58,8 @@ class Game
   end
 
   def turn
-    puts "Enter a number: 1 - 9"
-    user_input = current_player.move(@board)
+    puts "Enter a number 1 - 9:"
+    @user_input = current_player.move(@board)
     if @board.valid_move?(@user_input)
       @board.update(@user_input, current_player)
     else puts "Please enter a number 1-9:"
