@@ -57,7 +57,7 @@ class Game
     end
   end
 
-  def self.turn
+  def turn
 
   end
 
