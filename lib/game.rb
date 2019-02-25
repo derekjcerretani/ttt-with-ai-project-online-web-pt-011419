@@ -52,6 +52,7 @@ class Game
 
   def winner
     won?.each {|num| won?[num]}
+    binding.pry
   end
 
 
