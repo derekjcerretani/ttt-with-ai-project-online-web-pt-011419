@@ -53,7 +53,7 @@ class Game
   def winner
     if won?
       combination = won?
-      self.board.cells
+      self.board.cells[[combination[0]]]
   end
 
 
