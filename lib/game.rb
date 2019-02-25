@@ -59,7 +59,7 @@ class Game
 
   def turn
     puts "Enter a number: 1 - 9"
-    user_input = current_player.move
+    user_input = current_player.move(@board)
 
   end
 
