@@ -47,9 +47,10 @@ class Game
   end
 
   def over?
-    if won? || draw?
-      true unless self.board.cells.include?(" ")
-    end
+    # if won? || draw?
+    #   true unless self.board.cells.include?(" ")
+    # end
+    (won? || draw?) ? true : false
   end
 
   def winner
