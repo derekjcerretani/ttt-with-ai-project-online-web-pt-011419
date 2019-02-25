@@ -69,7 +69,7 @@ class Game
     @board.display
   end
 
-  def play 
+  def play
 
   end
 
