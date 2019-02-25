@@ -51,7 +51,7 @@ class Game
   end
 
   def winner
-    won?
+    won?.each {|num| won[num]}
   end
 
 
