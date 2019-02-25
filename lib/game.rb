@@ -51,9 +51,7 @@ class Game
   end
 
   def winner
-    if won?
-      combination
-    end
+    won?
   end
 
 
