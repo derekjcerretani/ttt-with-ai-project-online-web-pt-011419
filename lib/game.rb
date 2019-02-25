@@ -54,6 +54,7 @@ class Game
     if won?
       combination = won?
       self.board.cells[combination[0]]
+      binding.pry
     end
   end
 
