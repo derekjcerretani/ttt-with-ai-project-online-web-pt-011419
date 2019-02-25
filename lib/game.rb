@@ -51,7 +51,11 @@ class Game
   end
 
   def winner
-    won?.each {|num| won?[num]}
+    self.board.cells.each do |x| 
+      if x == "X"
+        puts x.index
+      end
+    end
     binding.pry
   end
 
