@@ -50,6 +50,9 @@ class Game
     end
   end
 
+  def winner
+
+  end
 
 
 
